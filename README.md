@@ -35,7 +35,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 
 model = RandomForestClassifier()
 model.fit(X_train, y_train)
-
+```
 ## What I Learned
 * How to apply machine learning to real-world medical datasets
 * The importance of feature engineering in predictive modeling
