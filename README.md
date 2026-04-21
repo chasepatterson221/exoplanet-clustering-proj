@@ -26,6 +26,8 @@ This project explores planetary data through analysis and visualization techniqu
 * Jupyter Notebook
 
 ## Sample Code
+
+```python
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 
@@ -44,3 +46,5 @@ model.fit(X_train, y_train)
 * Experiment with additional models (e.g., XGBoost, SVM)
 * Perform hyperparameter tuning for improved accuracy
 * Deploy the model as a web-based application
+
+
