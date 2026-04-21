@@ -25,8 +25,22 @@ This project explores planetary data through analysis and visualization techniqu
 * Matplotlib / Seaborn
 * Jupyter Notebook
 
-## Key Takeaways
+## Sample Code
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestClassifier
 
-* Learned how to structure a full data science workflow from raw data to insights
-* Improved skills in data visualization and interpretation
-* Gained experience working with scientific/astronomical datasets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+
+model = RandomForestClassifier()
+model.fit(X_train, y_train)
+
+## What I Learned
+* How to apply machine learning to real-world medical datasets
+* The importance of feature engineering in predictive modeling
+* Tradeoffs between model complexity and interpretability
+* How data science can support early disease detection
+
+## Future Improvements
+* Experiment with additional models (e.g., XGBoost, SVM)
+* Perform hyperparameter tuning for improved accuracy
+* Deploy the model as a web-based application
