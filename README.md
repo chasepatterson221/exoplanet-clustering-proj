@@ -15,7 +15,7 @@ This project explores planetary data through analysis and visualization techniqu
 
 👉 [View Full HTML Report](https://cpatte77.github.io/DataMining-Analyses/FinalProject4Planets.html)
 
-> Download the file and open it in your browser for the full interactive notebook experience.
+> Download the file or click link to open in browswer to see full write up and code!
 
 ## Tech Stack
 
